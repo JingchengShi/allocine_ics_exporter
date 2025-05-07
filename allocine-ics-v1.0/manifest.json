@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Allociné ICS Exporter",
+  "version": "1.0",
+  "description": "Get film information from allociné and generate .ics file. Bonne séance !",
+  "permissions": ["scripting", "activeTab"],
+  "host_permissions": ["https://www.allocine.fr/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://mon.allocine.fr/mes-cinemas/*"],
+      "js": ["content.js"],
+      "css": ["style.css"]
+    }
+  ],
+  "icons": {
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}

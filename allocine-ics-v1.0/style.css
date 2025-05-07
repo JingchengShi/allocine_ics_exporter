@@ -1,0 +1,18 @@
+.ics-download-button {
+  background-color: rgb(235, 92, 92);
+  color: #333;
+  border: none;
+  padding: 4px 10px;
+  border-radius: 4px;
+  margin-right: 0;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: middle;
+  transition: background-color 0.3s;
+}
+.ics-download-button:hover {
+  background-color: rgb(200, 70, 70);
+}
