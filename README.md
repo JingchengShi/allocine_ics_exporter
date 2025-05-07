@@ -4,8 +4,8 @@ Get film information from allociné and generate .ics file.
 ### 功能:
 
 在 https://mon.allocine.fr/mes-cinemas/ 页面生成对应电影场次的 .ics 日历文件，方便添加到所有日历。
+![image](https://github.com/user-attachments/assets/5a3b2dad-490d-4546-824c-2523b2237c23)
 
-![image.png](attachment:d61bf286-0cc0-4e1c-bf17-33003c6ac02f:f28f69e4-ad71-4af2-97ae-66e9d886e12f.png)
 
 ### 用法：
 
