@@ -4,8 +4,6 @@ Get film information from allociné and generate .ics file.
 ### 功能:
 
 在 https://mon.allocine.fr/mes-cinemas/ 页面生成对应电影场次的 .ics 日历文件，方便添加到所有日历。
-![image](https://github.com/user-attachments/assets/5a3b2dad-490d-4546-824c-2523b2237c23)
-
 
 ### 用法：
 
@@ -24,3 +22,5 @@ Get film information from allociné and generate .ics file.
 - 日历文件下载前会做一次确认，如果文件时间信息不完整，会在文件名前显示 Error
 - 添加了 `TZID=Europe/Paris` 到 `DTSTART` 和 `DTEND` 字段。主流日历会自动识别巴黎时间，包括夏令时切换。
 - 日历事件时长从Allociné电影详情页获取，如果获取失败，默认时长为120分钟。
+
+![image](https://github.com/user-attachments/assets/5a3b2dad-490d-4546-824c-2523b2237c23)
