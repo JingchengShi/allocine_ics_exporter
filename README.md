@@ -3,13 +3,13 @@ Get film information from allociné and generate .ics file.
 
 ### 功能:
 
-在 https://mon.allocine.fr/mes-cinemas/ 页面生成对应电影场次的 .ics 日历文件，方便添加到所有日历。
+在 `https://mon.allocine.fr/mes-cinemas/` 页面生成对应电影场次的 .ics 日历文件，方便添加到所有日历。
 
 ### 用法：
 
 1. 下载压缩包
-2. 将 allocine-ics-v*.* 文件夹解压缩
-3. 把文件夹拖拽到 chrome 浏览器 chrome://extensions/ （或edge浏览器）
+2. 将 `allocine-ics-v*.*` 文件夹解压缩
+3. 把文件夹拖拽到 chrome 浏览器 `chrome://extensions/` （或edge浏览器）
 4. 启用
 
 ### 注意⚠️：
