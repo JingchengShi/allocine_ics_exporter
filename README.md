@@ -1,5 +1,24 @@
-# allocine_ics_exporter / allocine_ics_生成插件
+# allociné ics calendar exporter for chrome and edge
 Get film information from allociné and generate .ics file.
+
+### Fonction:
+Exporter un fichier calendrier .ics à partir de la programmation des films d'allociné sur la page `https://mon.allocine.fr/mes-cinemas/`, pour faciliter l'ajout de ce fichier à tous les calendriers.
+
+### Utilisation :
+1. Télécharger le fichier zip
+2. Extraire le dossier `allocine-ics-v*.*`
+3. Glissez-déposez le dossier dans chrome `chrome://extensions/` (ou navigateur edge)
+4. Activer
+
+### Attention ⚠️ :
+- **Le plugin fonctionne sur la page web originale (en français), la fonction de traduction de la page web provoquera une erreur d'exportation ! Veillez désactiver la traduction des pages lorsque le téléchargement du fichier .ics.**
+
+### v1.0 Mise à jour :
+- Nomination du fichier .ics : `TitreFilm_heure_date.ics`
+- Si les heures (début/fin) de la séance sont incomplètes, le nom du fichier sera précédé d'un `Error`.
+- Ajout de `TZID=Europe/Paris` aux champs `DTSTART` et `DTEND`. Le calendrier principal reconnaît automatiquement l'heure de Paris, y compris le changement d'heure.
+- La durée de l'événement du calendrier est récupérée à partir de la page de détails du film Allociné. Si cela échoue, la durée par défaut est de 120 minutes.
+
 
 ### 功能:
 
@@ -19,7 +38,7 @@ Get film information from allociné and generate .ics file.
 ### v1.0 更新：
 
 - .ics文件名：电影名_放映时间_放映日期.ics
-- 日历文件下载前会做一次确认，如果文件时间信息不完整，会在文件名前显示 Error
+- 日历文件下载前会做一次确认，如果文件时间信息不完整，会在文件名前显示 `Error`
 - 添加了 `TZID=Europe/Paris` 到 `DTSTART` 和 `DTEND` 字段。主流日历会自动识别巴黎时间，包括夏令时切换。
 - 日历事件时长从Allociné电影详情页获取，如果获取失败，默认时长为120分钟。
 
